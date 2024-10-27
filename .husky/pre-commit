@@ -1,1 +1,1 @@
-prettier --check .
+npm run ts-lint && npx lint-staged && prettier --check .
