@@ -1,5 +1,6 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
+  "plugins": ["eslint-plugin-react-compiler"],
   "rules": {
     "@typescript-eslint/consistent-type-imports": [
       "error",
